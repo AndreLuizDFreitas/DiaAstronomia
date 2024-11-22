@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dia da Astronomia - 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Dia da Astronomia</h1>
+            <nav>
+            </nav>
+        </div>
+    </header>
+
+    <section id="importancia" class="section">
+        <div class="container">
+            <h2>A Importância do Estudo da Astronomia</h2>
+            <p>A astronomia não é apenas a ciência que estuda os corpos celestes, mas também uma força motriz para o avanço do conhecimento humano. Ela nos ajuda a entender nosso lugar no universo, explorando questões sobre a origem do cosmos, a evolução das estrelas e o futuro do nosso planeta.</p>
+            <p>O estudo da astronomia nos permite desenvolver novas tecnologias, aprimorar métodos de observação e resolver problemas complexos que afetam a vida cotidiana, como o monitoramento de satélites e a previsão de fenômenos climáticos.</p>
+        </div>
+    </section>
+
+    <section id="inovacao" class="section">
+        <div class="container">
+            <h2>A Astronomia e a Inovação</h2>
+            <p>O estudo do espaço tem levado ao desenvolvimento de tecnologias que beneficiam diretamente a sociedade. Entre elas, estão os avanços em computação, comunicação e até medicina, como a invenção da imagem por ressonância magnética (IRM) e o GPS, que são baseados em pesquisas espaciais.</p>
+            <p>Além disso, a astronomia está diretamente envolvida na exploração espacial, que possibilita a realização de missões científicas, como a exploração de Marte e a observação de exoplanetas que podem abrigar vida. Essas inovações são essenciais para o futuro da humanidade.</p>
+        </div>
+    </section>
+
+    <section id="celebracao" class="section">
+        <div class="container">
+            <h2>Como Celebrar o Dia da Astronomia</h2>
+            <p>O Dia da Astronomia é uma oportunidade única de se conectar com o cosmos e refletir sobre os avanços científicos que ajudam a expandir nossos horizontes. Em várias partes do mundo, eventos são realizados, como observações públicas, palestras, exposições e até observações noturnas dos astros.</p>
+            <p>Participe de atividades locais e aproveite a data para aprender mais sobre os mistérios do universo e como a astronomia continua a moldar o futuro da ciência e da tecnologia.</p>
+        </div>
+    </section>
+
+
+</body>
+</html>
+
+//CSS
+
+/* Resetando margens e padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor de fundo e fonte padrão */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Estilos do header */
+header {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    color: #FFD700;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Estilos das seções */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #FFD700;
+}
+
+.section p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Estilos do footer */
+footer {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1rem;
+}
