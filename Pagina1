@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia da Astronomia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #000428, #004e92);
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #001f3f;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #1abc9c;
+            font-weight: bold;
+        }
+        main {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        section {
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #001f3f;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Dia da Astronomia!</h1>
+        <img src="https://s.calendarr.com/upload/d2/6f/dia-da-astronomia-f.png">
+    </header>
+    <main>
+        <section>
+            <h2>Explore o Universo</h2>
+            <p>Descubra os mistérios do cosmos em um dia dedicado à ciência e às estrelas.</p>
+        </section>
+        <section>
+            <h3>O que é o Dia da Astronomia?</h3>
+            <p>Uma celebração da astronomia para todos os curiosos sobre o espaço e nossa posição no universo.</p>
+        </section>
+    </main>
+  
+</body>
+</html>
